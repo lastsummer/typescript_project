@@ -30,4 +30,5 @@ function addAndHandel(n1:number, n2:number, cb: (num: number)=> void){
 
 addAndHandel(5,6, (num) => {
   console.log(num)
+  return 2
 })

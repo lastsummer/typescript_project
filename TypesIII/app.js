@@ -20,4 +20,5 @@ function addAndHandel(n1, n2, cb) {
 }
 addAndHandel(5, 6, function (num) {
     console.log(num);
+    return true;
 });
