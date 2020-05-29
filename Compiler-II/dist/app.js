@@ -1,5 +1,9 @@
+"use strict";
+exports.__esModule = true;
 var a = "a";
 var b = "c";
+console.log(a);
+console.log(b);
 var button = document.querySelector('button');
 button.addEventListener('click', function () {
     console.log('Clicked!');
@@ -12,4 +16,5 @@ for (var _i = 0, c_1 = c; _i < c_1.length; _i++) {
 function clickHandler(message) {
     console.log('CLicked! ' + message);
 }
+exports.clickHandler = clickHandler;
 //# sourceMappingURL=app.js.map

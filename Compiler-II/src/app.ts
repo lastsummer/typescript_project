@@ -1,5 +1,7 @@
 const a = "a"
 const b = "c"
+console.log(a)
+console.log(b)
 const button = document.querySelector('button')!
 button.addEventListener('click',()=>{
   console.log('Clicked!')
@@ -10,7 +12,6 @@ for (let i of c) {
   console.log(i)
 }
 
-function clickHandler(message: string){
+export function clickHandler(message: string){
   console.log('CLicked! ' + message)
 }
-
